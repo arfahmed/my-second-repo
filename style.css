@@ -1,1 +1,33 @@
-h2{color: rgb(221, 34, 34);}
+h1 {
+  font-size: 50px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.orangecolor {
+  color: orange;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+/* My IMG */
+.side-img {
+  border-radius: 80%;
+  background-image: linear-gradient(orange, tomato);
+  height: fit-content;
+}
+/* HIRE ME BTN*/
+.primary-btn {
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 5px;
+}
